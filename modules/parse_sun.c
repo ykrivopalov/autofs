@@ -179,9 +179,6 @@ int expandsunent(const char *src, char *dst, const char *key,
 
 		case '\\':
 			len++;
-			if (dst)
-				*dst++ = ch;
-
 			if (*src) {
 				len++;
 				if (dst)
